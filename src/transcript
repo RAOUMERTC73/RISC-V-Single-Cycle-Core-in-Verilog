@@ -1,0 +1,23 @@
+# vsim Single_Cycle_Top_Tb 
+# Start time: 04:35:47 on Aug 12,2024
+# Loading work.Single_Cycle_Top_Tb
+# Loading work.Single_Cycle_Top
+# Loading work.PC_Module
+# Loading work.PC_Adder
+# Loading work.Instruction_Memory
+# Loading work.Register_File
+# Loading work.Sign_Extend
+# Loading work.Mux
+# Loading work.ALU
+# Loading work.Control_Unit_Top
+# Loading work.Main_Decoder
+# Loading work.ALU_Decoder
+# Loading work.Data_Memory
+add wave -position insertpoint sim:/Single_Cycle_Top_Tb/Single_Cycle_Top/*
+run -a
+# ** Note: $finish    : Single_Cycle_Top_Tb.v(29)
+#    Time: 400 ps  Iteration: 0  Instance: /Single_Cycle_Top_Tb
+# 1
+# Break in Module Single_Cycle_Top_Tb at Single_Cycle_Top_Tb.v line 29
+# End time: 04:37:06 on Aug 12,2024, Elapsed time: 0:01:19
+# Errors: 0, Warnings: 0
