@@ -1,4 +1,4 @@
-This repository contains the design files of a RISC-V Single-Cycle Core, created using the reference book *Harris D. Digital Design and Computer Architecture: RISC-V Edition, 2022*.
+This repository contains the design files of a RISC-V Single-Cycle Core, created using the reference book *Harris D. Digital Design and Computer Architecture: RISC-V Edition ..*.
 
 !['RISCV,.PNG'](RISCV,.PNG)
 
@@ -36,7 +36,7 @@ In this project, I designed and implemented a single-cycle microarchitecture for
 ## Tools and Technologies Used
 
 - **Hardware Description Language:** Verilog HDL / System Verilog
-- **Simulation Tools:** Icarus Verilog (iverilog) for Verilog file supported only  , GTK Wave, Modelsim /Questasim  for verilog and system Verilog 
+- **Simulation Tools:** Icarus Verilog (iverilog) for Verilog file supported only  , GTK Wave, Modelsim /Questasim  for verilog and system Verilog  files
 - **Development Environment:** VS Code / Sublime
 
 ## Outcome
