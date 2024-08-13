@@ -1,6 +1,6 @@
 This repository contains the design files of a RISC-V Single-Cycle Core, created using the reference book *Harris D. Digital Design and Computer Architecture: RISC-V Edition ..*.
-
-!['RISCV,.PNG'](RISCV,.PNG)
+## Complete single-cycle processor
+!['RISCV,.PNG'](RISCV.PNG)
 
 ## Project Overview
 
@@ -23,14 +23,14 @@ In this project, I designed and implemented a single-cycle microarchitecture for
 - Designed and implemented the ALU to perform all required arithmetic and logical operations in accordance with the RISC-V specification.
 
 ### Control Unit Design
-- Created the Control Unit responsible for instruction decoding and control signal generation, enabling the execution of various instruction types (R-Type, I-Type, S-Type).
+- Created the Control Unit responsible for instruction decoding and control signal generation, enabling the execution of various instruction types (R-Type, I-Type, S-Type,B-Type).
 
 ### Datapath Design
-- Designed and integrated the datapath for key instructions, including load, store, and R-type operations, ensuring proper data flow and processing.
+- Designed and integrated the datapath for key instructions, including load, store, and R-type operations and B-type operations, ensuring proper data flow and processing.
 
 ### Testing and Verification
 - Analyzed the required output of the entire system to ensure it met the design specifications.
-- Tested the complete set of RISC-V instructions (I-Type, S-Type, and R-Type) using Icarus Verilog (iverilog) on VS Code.
+- Tested the complete set of RISC-V instructions (I-Type, S-Type, and R-Type,B-Type) using Icarus Verilog (iverilog) on VS Code.
 - Visualized and analyzed results using GTK Wave and Modelsim, verifying the functionality of the processor.
 
 ## Tools and Technologies Used
