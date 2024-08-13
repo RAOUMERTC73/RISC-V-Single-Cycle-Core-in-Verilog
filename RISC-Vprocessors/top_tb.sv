@@ -35,6 +35,5 @@ module top_tb();
         end
       end
     end
-  $display("didhiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii");
 
 endmodule
