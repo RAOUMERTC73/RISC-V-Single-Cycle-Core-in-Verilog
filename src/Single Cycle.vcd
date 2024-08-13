@@ -1,2493 +1,398 @@
 $date
-	Mon Aug 12 04:36:20 2024
+	Tue Aug 13 17:42:10 2024
 $end
 $version
-	ModelSim Version 10.5b
+	Icarus Verilog
 $end
 $timescale
-	1ps
+	1s
 $end
-
 $scope module Single_Cycle_Top_Tb $end
 $var reg 1 ! clk $end
 $var reg 1 " rst $end
-
 $scope module Single_Cycle_Top $end
-$var wire 1 # clk $end
-$var wire 1 $ rst $end
-$var wire 1 % PC_Top [31] $end
-$var wire 1 & PC_Top [30] $end
-$var wire 1 ' PC_Top [29] $end
-$var wire 1 ( PC_Top [28] $end
-$var wire 1 ) PC_Top [27] $end
-$var wire 1 * PC_Top [26] $end
-$var wire 1 + PC_Top [25] $end
-$var wire 1 , PC_Top [24] $end
-$var wire 1 - PC_Top [23] $end
-$var wire 1 . PC_Top [22] $end
-$var wire 1 / PC_Top [21] $end
-$var wire 1 0 PC_Top [20] $end
-$var wire 1 1 PC_Top [19] $end
-$var wire 1 2 PC_Top [18] $end
-$var wire 1 3 PC_Top [17] $end
-$var wire 1 4 PC_Top [16] $end
-$var wire 1 5 PC_Top [15] $end
-$var wire 1 6 PC_Top [14] $end
-$var wire 1 7 PC_Top [13] $end
-$var wire 1 8 PC_Top [12] $end
-$var wire 1 9 PC_Top [11] $end
-$var wire 1 : PC_Top [10] $end
-$var wire 1 ; PC_Top [9] $end
-$var wire 1 < PC_Top [8] $end
-$var wire 1 = PC_Top [7] $end
-$var wire 1 > PC_Top [6] $end
-$var wire 1 ? PC_Top [5] $end
-$var wire 1 @ PC_Top [4] $end
-$var wire 1 A PC_Top [3] $end
-$var wire 1 B PC_Top [2] $end
-$var wire 1 C PC_Top [1] $end
-$var wire 1 D PC_Top [0] $end
-$var wire 1 E RD_Instr [31] $end
-$var wire 1 F RD_Instr [30] $end
-$var wire 1 G RD_Instr [29] $end
-$var wire 1 H RD_Instr [28] $end
-$var wire 1 I RD_Instr [27] $end
-$var wire 1 J RD_Instr [26] $end
-$var wire 1 K RD_Instr [25] $end
-$var wire 1 L RD_Instr [24] $end
-$var wire 1 M RD_Instr [23] $end
-$var wire 1 N RD_Instr [22] $end
-$var wire 1 O RD_Instr [21] $end
-$var wire 1 P RD_Instr [20] $end
-$var wire 1 Q RD_Instr [19] $end
-$var wire 1 R RD_Instr [18] $end
-$var wire 1 S RD_Instr [17] $end
-$var wire 1 T RD_Instr [16] $end
-$var wire 1 U RD_Instr [15] $end
-$var wire 1 V RD_Instr [14] $end
-$var wire 1 W RD_Instr [13] $end
-$var wire 1 X RD_Instr [12] $end
-$var wire 1 Y RD_Instr [11] $end
-$var wire 1 Z RD_Instr [10] $end
-$var wire 1 [ RD_Instr [9] $end
-$var wire 1 \ RD_Instr [8] $end
-$var wire 1 ] RD_Instr [7] $end
-$var wire 1 ^ RD_Instr [6] $end
-$var wire 1 _ RD_Instr [5] $end
-$var wire 1 ` RD_Instr [4] $end
-$var wire 1 a RD_Instr [3] $end
-$var wire 1 b RD_Instr [2] $end
-$var wire 1 c RD_Instr [1] $end
-$var wire 1 d RD_Instr [0] $end
-$var wire 1 e RD1_Top [31] $end
-$var wire 1 f RD1_Top [30] $end
-$var wire 1 g RD1_Top [29] $end
-$var wire 1 h RD1_Top [28] $end
-$var wire 1 i RD1_Top [27] $end
-$var wire 1 j RD1_Top [26] $end
-$var wire 1 k RD1_Top [25] $end
-$var wire 1 l RD1_Top [24] $end
-$var wire 1 m RD1_Top [23] $end
-$var wire 1 n RD1_Top [22] $end
-$var wire 1 o RD1_Top [21] $end
-$var wire 1 p RD1_Top [20] $end
-$var wire 1 q RD1_Top [19] $end
-$var wire 1 r RD1_Top [18] $end
-$var wire 1 s RD1_Top [17] $end
-$var wire 1 t RD1_Top [16] $end
-$var wire 1 u RD1_Top [15] $end
-$var wire 1 v RD1_Top [14] $end
-$var wire 1 w RD1_Top [13] $end
-$var wire 1 x RD1_Top [12] $end
-$var wire 1 y RD1_Top [11] $end
-$var wire 1 z RD1_Top [10] $end
-$var wire 1 { RD1_Top [9] $end
-$var wire 1 | RD1_Top [8] $end
-$var wire 1 } RD1_Top [7] $end
-$var wire 1 ~ RD1_Top [6] $end
-$var wire 1 !! RD1_Top [5] $end
-$var wire 1 "! RD1_Top [4] $end
-$var wire 1 #! RD1_Top [3] $end
-$var wire 1 $! RD1_Top [2] $end
-$var wire 1 %! RD1_Top [1] $end
-$var wire 1 &! RD1_Top [0] $end
-$var wire 1 '! Imm_Ext_Top [31] $end
-$var wire 1 (! Imm_Ext_Top [30] $end
-$var wire 1 )! Imm_Ext_Top [29] $end
-$var wire 1 *! Imm_Ext_Top [28] $end
-$var wire 1 +! Imm_Ext_Top [27] $end
-$var wire 1 ,! Imm_Ext_Top [26] $end
-$var wire 1 -! Imm_Ext_Top [25] $end
-$var wire 1 .! Imm_Ext_Top [24] $end
-$var wire 1 /! Imm_Ext_Top [23] $end
-$var wire 1 0! Imm_Ext_Top [22] $end
-$var wire 1 1! Imm_Ext_Top [21] $end
-$var wire 1 2! Imm_Ext_Top [20] $end
-$var wire 1 3! Imm_Ext_Top [19] $end
-$var wire 1 4! Imm_Ext_Top [18] $end
-$var wire 1 5! Imm_Ext_Top [17] $end
-$var wire 1 6! Imm_Ext_Top [16] $end
-$var wire 1 7! Imm_Ext_Top [15] $end
-$var wire 1 8! Imm_Ext_Top [14] $end
-$var wire 1 9! Imm_Ext_Top [13] $end
-$var wire 1 :! Imm_Ext_Top [12] $end
-$var wire 1 ;! Imm_Ext_Top [11] $end
-$var wire 1 <! Imm_Ext_Top [10] $end
-$var wire 1 =! Imm_Ext_Top [9] $end
-$var wire 1 >! Imm_Ext_Top [8] $end
-$var wire 1 ?! Imm_Ext_Top [7] $end
-$var wire 1 @! Imm_Ext_Top [6] $end
-$var wire 1 A! Imm_Ext_Top [5] $end
-$var wire 1 B! Imm_Ext_Top [4] $end
-$var wire 1 C! Imm_Ext_Top [3] $end
-$var wire 1 D! Imm_Ext_Top [2] $end
-$var wire 1 E! Imm_Ext_Top [1] $end
-$var wire 1 F! Imm_Ext_Top [0] $end
-$var wire 1 G! ALUResult [31] $end
-$var wire 1 H! ALUResult [30] $end
-$var wire 1 I! ALUResult [29] $end
-$var wire 1 J! ALUResult [28] $end
-$var wire 1 K! ALUResult [27] $end
-$var wire 1 L! ALUResult [26] $end
-$var wire 1 M! ALUResult [25] $end
-$var wire 1 N! ALUResult [24] $end
-$var wire 1 O! ALUResult [23] $end
-$var wire 1 P! ALUResult [22] $end
-$var wire 1 Q! ALUResult [21] $end
-$var wire 1 R! ALUResult [20] $end
-$var wire 1 S! ALUResult [19] $end
-$var wire 1 T! ALUResult [18] $end
-$var wire 1 U! ALUResult [17] $end
-$var wire 1 V! ALUResult [16] $end
-$var wire 1 W! ALUResult [15] $end
-$var wire 1 X! ALUResult [14] $end
-$var wire 1 Y! ALUResult [13] $end
-$var wire 1 Z! ALUResult [12] $end
-$var wire 1 [! ALUResult [11] $end
-$var wire 1 \! ALUResult [10] $end
-$var wire 1 ]! ALUResult [9] $end
-$var wire 1 ^! ALUResult [8] $end
-$var wire 1 _! ALUResult [7] $end
-$var wire 1 `! ALUResult [6] $end
-$var wire 1 a! ALUResult [5] $end
-$var wire 1 b! ALUResult [4] $end
-$var wire 1 c! ALUResult [3] $end
-$var wire 1 d! ALUResult [2] $end
-$var wire 1 e! ALUResult [1] $end
-$var wire 1 f! ALUResult [0] $end
-$var wire 1 g! ReadData [31] $end
-$var wire 1 h! ReadData [30] $end
-$var wire 1 i! ReadData [29] $end
-$var wire 1 j! ReadData [28] $end
-$var wire 1 k! ReadData [27] $end
-$var wire 1 l! ReadData [26] $end
-$var wire 1 m! ReadData [25] $end
-$var wire 1 n! ReadData [24] $end
-$var wire 1 o! ReadData [23] $end
-$var wire 1 p! ReadData [22] $end
-$var wire 1 q! ReadData [21] $end
-$var wire 1 r! ReadData [20] $end
-$var wire 1 s! ReadData [19] $end
-$var wire 1 t! ReadData [18] $end
-$var wire 1 u! ReadData [17] $end
-$var wire 1 v! ReadData [16] $end
-$var wire 1 w! ReadData [15] $end
-$var wire 1 x! ReadData [14] $end
-$var wire 1 y! ReadData [13] $end
-$var wire 1 z! ReadData [12] $end
-$var wire 1 {! ReadData [11] $end
-$var wire 1 |! ReadData [10] $end
-$var wire 1 }! ReadData [9] $end
-$var wire 1 ~! ReadData [8] $end
-$var wire 1 !" ReadData [7] $end
-$var wire 1 "" ReadData [6] $end
-$var wire 1 #" ReadData [5] $end
-$var wire 1 $" ReadData [4] $end
-$var wire 1 %" ReadData [3] $end
-$var wire 1 &" ReadData [2] $end
-$var wire 1 '" ReadData [1] $end
-$var wire 1 (" ReadData [0] $end
-$var wire 1 )" PCPlus4 [31] $end
-$var wire 1 *" PCPlus4 [30] $end
-$var wire 1 +" PCPlus4 [29] $end
-$var wire 1 ," PCPlus4 [28] $end
-$var wire 1 -" PCPlus4 [27] $end
-$var wire 1 ." PCPlus4 [26] $end
-$var wire 1 /" PCPlus4 [25] $end
-$var wire 1 0" PCPlus4 [24] $end
-$var wire 1 1" PCPlus4 [23] $end
-$var wire 1 2" PCPlus4 [22] $end
-$var wire 1 3" PCPlus4 [21] $end
-$var wire 1 4" PCPlus4 [20] $end
-$var wire 1 5" PCPlus4 [19] $end
-$var wire 1 6" PCPlus4 [18] $end
-$var wire 1 7" PCPlus4 [17] $end
-$var wire 1 8" PCPlus4 [16] $end
-$var wire 1 9" PCPlus4 [15] $end
-$var wire 1 :" PCPlus4 [14] $end
-$var wire 1 ;" PCPlus4 [13] $end
-$var wire 1 <" PCPlus4 [12] $end
-$var wire 1 =" PCPlus4 [11] $end
-$var wire 1 >" PCPlus4 [10] $end
-$var wire 1 ?" PCPlus4 [9] $end
-$var wire 1 @" PCPlus4 [8] $end
-$var wire 1 A" PCPlus4 [7] $end
-$var wire 1 B" PCPlus4 [6] $end
-$var wire 1 C" PCPlus4 [5] $end
-$var wire 1 D" PCPlus4 [4] $end
-$var wire 1 E" PCPlus4 [3] $end
-$var wire 1 F" PCPlus4 [2] $end
-$var wire 1 G" PCPlus4 [1] $end
-$var wire 1 H" PCPlus4 [0] $end
-$var wire 1 I" RD2_Top [31] $end
-$var wire 1 J" RD2_Top [30] $end
-$var wire 1 K" RD2_Top [29] $end
-$var wire 1 L" RD2_Top [28] $end
-$var wire 1 M" RD2_Top [27] $end
-$var wire 1 N" RD2_Top [26] $end
-$var wire 1 O" RD2_Top [25] $end
-$var wire 1 P" RD2_Top [24] $end
-$var wire 1 Q" RD2_Top [23] $end
-$var wire 1 R" RD2_Top [22] $end
-$var wire 1 S" RD2_Top [21] $end
-$var wire 1 T" RD2_Top [20] $end
-$var wire 1 U" RD2_Top [19] $end
-$var wire 1 V" RD2_Top [18] $end
-$var wire 1 W" RD2_Top [17] $end
-$var wire 1 X" RD2_Top [16] $end
-$var wire 1 Y" RD2_Top [15] $end
-$var wire 1 Z" RD2_Top [14] $end
-$var wire 1 [" RD2_Top [13] $end
-$var wire 1 \" RD2_Top [12] $end
-$var wire 1 ]" RD2_Top [11] $end
-$var wire 1 ^" RD2_Top [10] $end
-$var wire 1 _" RD2_Top [9] $end
-$var wire 1 `" RD2_Top [8] $end
-$var wire 1 a" RD2_Top [7] $end
-$var wire 1 b" RD2_Top [6] $end
-$var wire 1 c" RD2_Top [5] $end
-$var wire 1 d" RD2_Top [4] $end
-$var wire 1 e" RD2_Top [3] $end
-$var wire 1 f" RD2_Top [2] $end
-$var wire 1 g" RD2_Top [1] $end
-$var wire 1 h" RD2_Top [0] $end
-$var wire 1 i" SrcB [31] $end
-$var wire 1 j" SrcB [30] $end
-$var wire 1 k" SrcB [29] $end
-$var wire 1 l" SrcB [28] $end
-$var wire 1 m" SrcB [27] $end
-$var wire 1 n" SrcB [26] $end
-$var wire 1 o" SrcB [25] $end
-$var wire 1 p" SrcB [24] $end
-$var wire 1 q" SrcB [23] $end
-$var wire 1 r" SrcB [22] $end
-$var wire 1 s" SrcB [21] $end
-$var wire 1 t" SrcB [20] $end
-$var wire 1 u" SrcB [19] $end
-$var wire 1 v" SrcB [18] $end
-$var wire 1 w" SrcB [17] $end
-$var wire 1 x" SrcB [16] $end
-$var wire 1 y" SrcB [15] $end
-$var wire 1 z" SrcB [14] $end
-$var wire 1 {" SrcB [13] $end
-$var wire 1 |" SrcB [12] $end
-$var wire 1 }" SrcB [11] $end
-$var wire 1 ~" SrcB [10] $end
-$var wire 1 !# SrcB [9] $end
-$var wire 1 "# SrcB [8] $end
-$var wire 1 ## SrcB [7] $end
-$var wire 1 $# SrcB [6] $end
-$var wire 1 %# SrcB [5] $end
-$var wire 1 &# SrcB [4] $end
-$var wire 1 '# SrcB [3] $end
-$var wire 1 (# SrcB [2] $end
-$var wire 1 )# SrcB [1] $end
-$var wire 1 *# SrcB [0] $end
-$var wire 1 +# Result [31] $end
-$var wire 1 ,# Result [30] $end
-$var wire 1 -# Result [29] $end
-$var wire 1 .# Result [28] $end
-$var wire 1 /# Result [27] $end
-$var wire 1 0# Result [26] $end
-$var wire 1 1# Result [25] $end
-$var wire 1 2# Result [24] $end
-$var wire 1 3# Result [23] $end
-$var wire 1 4# Result [22] $end
-$var wire 1 5# Result [21] $end
-$var wire 1 6# Result [20] $end
-$var wire 1 7# Result [19] $end
-$var wire 1 8# Result [18] $end
-$var wire 1 9# Result [17] $end
-$var wire 1 :# Result [16] $end
-$var wire 1 ;# Result [15] $end
-$var wire 1 <# Result [14] $end
-$var wire 1 =# Result [13] $end
-$var wire 1 ># Result [12] $end
-$var wire 1 ?# Result [11] $end
-$var wire 1 @# Result [10] $end
-$var wire 1 A# Result [9] $end
-$var wire 1 B# Result [8] $end
-$var wire 1 C# Result [7] $end
-$var wire 1 D# Result [6] $end
-$var wire 1 E# Result [5] $end
-$var wire 1 F# Result [4] $end
-$var wire 1 G# Result [3] $end
-$var wire 1 H# Result [2] $end
-$var wire 1 I# Result [1] $end
-$var wire 1 J# Result [0] $end
-$var wire 1 K# RegWrite $end
-$var wire 1 L# MemWrite $end
-$var wire 1 M# ALUSrc $end
-$var wire 1 N# ResultSrc $end
-$var wire 1 O# ImmSrc [1] $end
-$var wire 1 P# ImmSrc [0] $end
-$var wire 1 Q# ALUControl_Top [2] $end
-$var wire 1 R# ALUControl_Top [1] $end
-$var wire 1 S# ALUControl_Top [0] $end
-
-$scope module PC $end
-$var wire 1 # clk $end
-$var wire 1 $ rst $end
-$var wire 1 )" PC_Next [31] $end
-$var wire 1 *" PC_Next [30] $end
-$var wire 1 +" PC_Next [29] $end
-$var wire 1 ," PC_Next [28] $end
-$var wire 1 -" PC_Next [27] $end
-$var wire 1 ." PC_Next [26] $end
-$var wire 1 /" PC_Next [25] $end
-$var wire 1 0" PC_Next [24] $end
-$var wire 1 1" PC_Next [23] $end
-$var wire 1 2" PC_Next [22] $end
-$var wire 1 3" PC_Next [21] $end
-$var wire 1 4" PC_Next [20] $end
-$var wire 1 5" PC_Next [19] $end
-$var wire 1 6" PC_Next [18] $end
-$var wire 1 7" PC_Next [17] $end
-$var wire 1 8" PC_Next [16] $end
-$var wire 1 9" PC_Next [15] $end
-$var wire 1 :" PC_Next [14] $end
-$var wire 1 ;" PC_Next [13] $end
-$var wire 1 <" PC_Next [12] $end
-$var wire 1 =" PC_Next [11] $end
-$var wire 1 >" PC_Next [10] $end
-$var wire 1 ?" PC_Next [9] $end
-$var wire 1 @" PC_Next [8] $end
-$var wire 1 A" PC_Next [7] $end
-$var wire 1 B" PC_Next [6] $end
-$var wire 1 C" PC_Next [5] $end
-$var wire 1 D" PC_Next [4] $end
-$var wire 1 E" PC_Next [3] $end
-$var wire 1 F" PC_Next [2] $end
-$var wire 1 G" PC_Next [1] $end
-$var wire 1 H" PC_Next [0] $end
-$var reg 32 T# PC [31:0] $end
-$upscope $end
-
-$scope module PC_Adder $end
-$var wire 1 % a [31] $end
-$var wire 1 & a [30] $end
-$var wire 1 ' a [29] $end
-$var wire 1 ( a [28] $end
-$var wire 1 ) a [27] $end
-$var wire 1 * a [26] $end
-$var wire 1 + a [25] $end
-$var wire 1 , a [24] $end
-$var wire 1 - a [23] $end
-$var wire 1 . a [22] $end
-$var wire 1 / a [21] $end
-$var wire 1 0 a [20] $end
-$var wire 1 1 a [19] $end
-$var wire 1 2 a [18] $end
-$var wire 1 3 a [17] $end
-$var wire 1 4 a [16] $end
-$var wire 1 5 a [15] $end
-$var wire 1 6 a [14] $end
-$var wire 1 7 a [13] $end
-$var wire 1 8 a [12] $end
-$var wire 1 9 a [11] $end
-$var wire 1 : a [10] $end
-$var wire 1 ; a [9] $end
-$var wire 1 < a [8] $end
-$var wire 1 = a [7] $end
-$var wire 1 > a [6] $end
-$var wire 1 ? a [5] $end
-$var wire 1 @ a [4] $end
-$var wire 1 A a [3] $end
-$var wire 1 B a [2] $end
-$var wire 1 C a [1] $end
-$var wire 1 D a [0] $end
-$var wire 1 U# b [31] $end
-$var wire 1 V# b [30] $end
-$var wire 1 W# b [29] $end
-$var wire 1 X# b [28] $end
-$var wire 1 Y# b [27] $end
-$var wire 1 Z# b [26] $end
-$var wire 1 [# b [25] $end
-$var wire 1 \# b [24] $end
-$var wire 1 ]# b [23] $end
-$var wire 1 ^# b [22] $end
-$var wire 1 _# b [21] $end
-$var wire 1 `# b [20] $end
-$var wire 1 a# b [19] $end
-$var wire 1 b# b [18] $end
-$var wire 1 c# b [17] $end
-$var wire 1 d# b [16] $end
-$var wire 1 e# b [15] $end
-$var wire 1 f# b [14] $end
-$var wire 1 g# b [13] $end
-$var wire 1 h# b [12] $end
-$var wire 1 i# b [11] $end
-$var wire 1 j# b [10] $end
-$var wire 1 k# b [9] $end
-$var wire 1 l# b [8] $end
-$var wire 1 m# b [7] $end
-$var wire 1 n# b [6] $end
-$var wire 1 o# b [5] $end
-$var wire 1 p# b [4] $end
-$var wire 1 q# b [3] $end
-$var wire 1 r# b [2] $end
-$var wire 1 s# b [1] $end
-$var wire 1 t# b [0] $end
-$var wire 1 )" c [31] $end
-$var wire 1 *" c [30] $end
-$var wire 1 +" c [29] $end
-$var wire 1 ," c [28] $end
-$var wire 1 -" c [27] $end
-$var wire 1 ." c [26] $end
-$var wire 1 /" c [25] $end
-$var wire 1 0" c [24] $end
-$var wire 1 1" c [23] $end
-$var wire 1 2" c [22] $end
-$var wire 1 3" c [21] $end
-$var wire 1 4" c [20] $end
-$var wire 1 5" c [19] $end
-$var wire 1 6" c [18] $end
-$var wire 1 7" c [17] $end
-$var wire 1 8" c [16] $end
-$var wire 1 9" c [15] $end
-$var wire 1 :" c [14] $end
-$var wire 1 ;" c [13] $end
-$var wire 1 <" c [12] $end
-$var wire 1 =" c [11] $end
-$var wire 1 >" c [10] $end
-$var wire 1 ?" c [9] $end
-$var wire 1 @" c [8] $end
-$var wire 1 A" c [7] $end
-$var wire 1 B" c [6] $end
-$var wire 1 C" c [5] $end
-$var wire 1 D" c [4] $end
-$var wire 1 E" c [3] $end
-$var wire 1 F" c [2] $end
-$var wire 1 G" c [1] $end
-$var wire 1 H" c [0] $end
-$upscope $end
-
-$scope module Instruction_Memory $end
-$var wire 1 $ rst $end
-$var wire 1 % A [31] $end
-$var wire 1 & A [30] $end
-$var wire 1 ' A [29] $end
-$var wire 1 ( A [28] $end
-$var wire 1 ) A [27] $end
-$var wire 1 * A [26] $end
-$var wire 1 + A [25] $end
-$var wire 1 , A [24] $end
-$var wire 1 - A [23] $end
-$var wire 1 . A [22] $end
-$var wire 1 / A [21] $end
-$var wire 1 0 A [20] $end
-$var wire 1 1 A [19] $end
-$var wire 1 2 A [18] $end
-$var wire 1 3 A [17] $end
-$var wire 1 4 A [16] $end
-$var wire 1 5 A [15] $end
-$var wire 1 6 A [14] $end
-$var wire 1 7 A [13] $end
-$var wire 1 8 A [12] $end
-$var wire 1 9 A [11] $end
-$var wire 1 : A [10] $end
-$var wire 1 ; A [9] $end
-$var wire 1 < A [8] $end
-$var wire 1 = A [7] $end
-$var wire 1 > A [6] $end
-$var wire 1 ? A [5] $end
-$var wire 1 @ A [4] $end
-$var wire 1 A A [3] $end
-$var wire 1 B A [2] $end
-$var wire 1 C A [1] $end
-$var wire 1 D A [0] $end
-$var wire 1 E RD [31] $end
-$var wire 1 F RD [30] $end
-$var wire 1 G RD [29] $end
-$var wire 1 H RD [28] $end
-$var wire 1 I RD [27] $end
-$var wire 1 J RD [26] $end
-$var wire 1 K RD [25] $end
-$var wire 1 L RD [24] $end
-$var wire 1 M RD [23] $end
-$var wire 1 N RD [22] $end
-$var wire 1 O RD [21] $end
-$var wire 1 P RD [20] $end
-$var wire 1 Q RD [19] $end
-$var wire 1 R RD [18] $end
-$var wire 1 S RD [17] $end
-$var wire 1 T RD [16] $end
-$var wire 1 U RD [15] $end
-$var wire 1 V RD [14] $end
-$var wire 1 W RD [13] $end
-$var wire 1 X RD [12] $end
-$var wire 1 Y RD [11] $end
-$var wire 1 Z RD [10] $end
-$var wire 1 [ RD [9] $end
-$var wire 1 \ RD [8] $end
-$var wire 1 ] RD [7] $end
-$var wire 1 ^ RD [6] $end
-$var wire 1 _ RD [5] $end
-$var wire 1 ` RD [4] $end
-$var wire 1 a RD [3] $end
-$var wire 1 b RD [2] $end
-$var wire 1 c RD [1] $end
-$var wire 1 d RD [0] $end
-$upscope $end
-
-$scope module Register_File $end
-$var wire 1 # clk $end
-$var wire 1 $ rst $end
-$var wire 1 K# WE3 $end
-$var wire 1 Q A1 [4] $end
-$var wire 1 R A1 [3] $end
-$var wire 1 S A1 [2] $end
-$var wire 1 T A1 [1] $end
-$var wire 1 U A1 [0] $end
-$var wire 1 L A2 [4] $end
-$var wire 1 M A2 [3] $end
-$var wire 1 N A2 [2] $end
-$var wire 1 O A2 [1] $end
-$var wire 1 P A2 [0] $end
-$var wire 1 Y A3 [4] $end
-$var wire 1 Z A3 [3] $end
-$var wire 1 [ A3 [2] $end
-$var wire 1 \ A3 [1] $end
-$var wire 1 ] A3 [0] $end
-$var wire 1 +# WD3 [31] $end
-$var wire 1 ,# WD3 [30] $end
-$var wire 1 -# WD3 [29] $end
-$var wire 1 .# WD3 [28] $end
-$var wire 1 /# WD3 [27] $end
-$var wire 1 0# WD3 [26] $end
-$var wire 1 1# WD3 [25] $end
-$var wire 1 2# WD3 [24] $end
-$var wire 1 3# WD3 [23] $end
-$var wire 1 4# WD3 [22] $end
-$var wire 1 5# WD3 [21] $end
-$var wire 1 6# WD3 [20] $end
-$var wire 1 7# WD3 [19] $end
-$var wire 1 8# WD3 [18] $end
-$var wire 1 9# WD3 [17] $end
-$var wire 1 :# WD3 [16] $end
-$var wire 1 ;# WD3 [15] $end
-$var wire 1 <# WD3 [14] $end
-$var wire 1 =# WD3 [13] $end
-$var wire 1 ># WD3 [12] $end
-$var wire 1 ?# WD3 [11] $end
-$var wire 1 @# WD3 [10] $end
-$var wire 1 A# WD3 [9] $end
-$var wire 1 B# WD3 [8] $end
-$var wire 1 C# WD3 [7] $end
-$var wire 1 D# WD3 [6] $end
-$var wire 1 E# WD3 [5] $end
-$var wire 1 F# WD3 [4] $end
-$var wire 1 G# WD3 [3] $end
-$var wire 1 H# WD3 [2] $end
-$var wire 1 I# WD3 [1] $end
-$var wire 1 J# WD3 [0] $end
-$var wire 1 e RD1 [31] $end
-$var wire 1 f RD1 [30] $end
-$var wire 1 g RD1 [29] $end
-$var wire 1 h RD1 [28] $end
-$var wire 1 i RD1 [27] $end
-$var wire 1 j RD1 [26] $end
-$var wire 1 k RD1 [25] $end
-$var wire 1 l RD1 [24] $end
-$var wire 1 m RD1 [23] $end
-$var wire 1 n RD1 [22] $end
-$var wire 1 o RD1 [21] $end
-$var wire 1 p RD1 [20] $end
-$var wire 1 q RD1 [19] $end
-$var wire 1 r RD1 [18] $end
-$var wire 1 s RD1 [17] $end
-$var wire 1 t RD1 [16] $end
-$var wire 1 u RD1 [15] $end
-$var wire 1 v RD1 [14] $end
-$var wire 1 w RD1 [13] $end
-$var wire 1 x RD1 [12] $end
-$var wire 1 y RD1 [11] $end
-$var wire 1 z RD1 [10] $end
-$var wire 1 { RD1 [9] $end
-$var wire 1 | RD1 [8] $end
-$var wire 1 } RD1 [7] $end
-$var wire 1 ~ RD1 [6] $end
-$var wire 1 !! RD1 [5] $end
-$var wire 1 "! RD1 [4] $end
-$var wire 1 #! RD1 [3] $end
-$var wire 1 $! RD1 [2] $end
-$var wire 1 %! RD1 [1] $end
-$var wire 1 &! RD1 [0] $end
-$var wire 1 I" RD2 [31] $end
-$var wire 1 J" RD2 [30] $end
-$var wire 1 K" RD2 [29] $end
-$var wire 1 L" RD2 [28] $end
-$var wire 1 M" RD2 [27] $end
-$var wire 1 N" RD2 [26] $end
-$var wire 1 O" RD2 [25] $end
-$var wire 1 P" RD2 [24] $end
-$var wire 1 Q" RD2 [23] $end
-$var wire 1 R" RD2 [22] $end
-$var wire 1 S" RD2 [21] $end
-$var wire 1 T" RD2 [20] $end
-$var wire 1 U" RD2 [19] $end
-$var wire 1 V" RD2 [18] $end
-$var wire 1 W" RD2 [17] $end
-$var wire 1 X" RD2 [16] $end
-$var wire 1 Y" RD2 [15] $end
-$var wire 1 Z" RD2 [14] $end
-$var wire 1 [" RD2 [13] $end
-$var wire 1 \" RD2 [12] $end
-$var wire 1 ]" RD2 [11] $end
-$var wire 1 ^" RD2 [10] $end
-$var wire 1 _" RD2 [9] $end
-$var wire 1 `" RD2 [8] $end
-$var wire 1 a" RD2 [7] $end
-$var wire 1 b" RD2 [6] $end
-$var wire 1 c" RD2 [5] $end
-$var wire 1 d" RD2 [4] $end
-$var wire 1 e" RD2 [3] $end
-$var wire 1 f" RD2 [2] $end
-$var wire 1 g" RD2 [1] $end
-$var wire 1 h" RD2 [0] $end
-$upscope $end
-
-$scope module Sign_Extend $end
-$var wire 1 E In [31] $end
-$var wire 1 F In [30] $end
-$var wire 1 G In [29] $end
-$var wire 1 H In [28] $end
-$var wire 1 I In [27] $end
-$var wire 1 J In [26] $end
-$var wire 1 K In [25] $end
-$var wire 1 L In [24] $end
-$var wire 1 M In [23] $end
-$var wire 1 N In [22] $end
-$var wire 1 O In [21] $end
-$var wire 1 P In [20] $end
-$var wire 1 Q In [19] $end
-$var wire 1 R In [18] $end
-$var wire 1 S In [17] $end
-$var wire 1 T In [16] $end
-$var wire 1 U In [15] $end
-$var wire 1 V In [14] $end
-$var wire 1 W In [13] $end
-$var wire 1 X In [12] $end
-$var wire 1 Y In [11] $end
-$var wire 1 Z In [10] $end
-$var wire 1 [ In [9] $end
-$var wire 1 \ In [8] $end
-$var wire 1 ] In [7] $end
-$var wire 1 ^ In [6] $end
-$var wire 1 _ In [5] $end
-$var wire 1 ` In [4] $end
-$var wire 1 a In [3] $end
-$var wire 1 b In [2] $end
-$var wire 1 c In [1] $end
-$var wire 1 d In [0] $end
-$var wire 1 P# ImmSrc $end
-$var wire 1 '! Imm_Ext [31] $end
-$var wire 1 (! Imm_Ext [30] $end
-$var wire 1 )! Imm_Ext [29] $end
-$var wire 1 *! Imm_Ext [28] $end
-$var wire 1 +! Imm_Ext [27] $end
-$var wire 1 ,! Imm_Ext [26] $end
-$var wire 1 -! Imm_Ext [25] $end
-$var wire 1 .! Imm_Ext [24] $end
-$var wire 1 /! Imm_Ext [23] $end
-$var wire 1 0! Imm_Ext [22] $end
-$var wire 1 1! Imm_Ext [21] $end
-$var wire 1 2! Imm_Ext [20] $end
-$var wire 1 3! Imm_Ext [19] $end
-$var wire 1 4! Imm_Ext [18] $end
-$var wire 1 5! Imm_Ext [17] $end
-$var wire 1 6! Imm_Ext [16] $end
-$var wire 1 7! Imm_Ext [15] $end
-$var wire 1 8! Imm_Ext [14] $end
-$var wire 1 9! Imm_Ext [13] $end
-$var wire 1 :! Imm_Ext [12] $end
-$var wire 1 ;! Imm_Ext [11] $end
-$var wire 1 <! Imm_Ext [10] $end
-$var wire 1 =! Imm_Ext [9] $end
-$var wire 1 >! Imm_Ext [8] $end
-$var wire 1 ?! Imm_Ext [7] $end
-$var wire 1 @! Imm_Ext [6] $end
-$var wire 1 A! Imm_Ext [5] $end
-$var wire 1 B! Imm_Ext [4] $end
-$var wire 1 C! Imm_Ext [3] $end
-$var wire 1 D! Imm_Ext [2] $end
-$var wire 1 E! Imm_Ext [1] $end
-$var wire 1 F! Imm_Ext [0] $end
-$upscope $end
-
-$scope module Mux_Register_to_ALU $end
-$var wire 1 I" a [31] $end
-$var wire 1 J" a [30] $end
-$var wire 1 K" a [29] $end
-$var wire 1 L" a [28] $end
-$var wire 1 M" a [27] $end
-$var wire 1 N" a [26] $end
-$var wire 1 O" a [25] $end
-$var wire 1 P" a [24] $end
-$var wire 1 Q" a [23] $end
-$var wire 1 R" a [22] $end
-$var wire 1 S" a [21] $end
-$var wire 1 T" a [20] $end
-$var wire 1 U" a [19] $end
-$var wire 1 V" a [18] $end
-$var wire 1 W" a [17] $end
-$var wire 1 X" a [16] $end
-$var wire 1 Y" a [15] $end
-$var wire 1 Z" a [14] $end
-$var wire 1 [" a [13] $end
-$var wire 1 \" a [12] $end
-$var wire 1 ]" a [11] $end
-$var wire 1 ^" a [10] $end
-$var wire 1 _" a [9] $end
-$var wire 1 `" a [8] $end
-$var wire 1 a" a [7] $end
-$var wire 1 b" a [6] $end
-$var wire 1 c" a [5] $end
-$var wire 1 d" a [4] $end
-$var wire 1 e" a [3] $end
-$var wire 1 f" a [2] $end
-$var wire 1 g" a [1] $end
-$var wire 1 h" a [0] $end
-$var wire 1 '! b [31] $end
-$var wire 1 (! b [30] $end
-$var wire 1 )! b [29] $end
-$var wire 1 *! b [28] $end
-$var wire 1 +! b [27] $end
-$var wire 1 ,! b [26] $end
-$var wire 1 -! b [25] $end
-$var wire 1 .! b [24] $end
-$var wire 1 /! b [23] $end
-$var wire 1 0! b [22] $end
-$var wire 1 1! b [21] $end
-$var wire 1 2! b [20] $end
-$var wire 1 3! b [19] $end
-$var wire 1 4! b [18] $end
-$var wire 1 5! b [17] $end
-$var wire 1 6! b [16] $end
-$var wire 1 7! b [15] $end
-$var wire 1 8! b [14] $end
-$var wire 1 9! b [13] $end
-$var wire 1 :! b [12] $end
-$var wire 1 ;! b [11] $end
-$var wire 1 <! b [10] $end
-$var wire 1 =! b [9] $end
-$var wire 1 >! b [8] $end
-$var wire 1 ?! b [7] $end
-$var wire 1 @! b [6] $end
-$var wire 1 A! b [5] $end
-$var wire 1 B! b [4] $end
-$var wire 1 C! b [3] $end
-$var wire 1 D! b [2] $end
-$var wire 1 E! b [1] $end
-$var wire 1 F! b [0] $end
-$var wire 1 M# s $end
-$var wire 1 i" c [31] $end
-$var wire 1 j" c [30] $end
-$var wire 1 k" c [29] $end
-$var wire 1 l" c [28] $end
-$var wire 1 m" c [27] $end
-$var wire 1 n" c [26] $end
-$var wire 1 o" c [25] $end
-$var wire 1 p" c [24] $end
-$var wire 1 q" c [23] $end
-$var wire 1 r" c [22] $end
-$var wire 1 s" c [21] $end
-$var wire 1 t" c [20] $end
-$var wire 1 u" c [19] $end
-$var wire 1 v" c [18] $end
-$var wire 1 w" c [17] $end
-$var wire 1 x" c [16] $end
-$var wire 1 y" c [15] $end
-$var wire 1 z" c [14] $end
-$var wire 1 {" c [13] $end
-$var wire 1 |" c [12] $end
-$var wire 1 }" c [11] $end
-$var wire 1 ~" c [10] $end
-$var wire 1 !# c [9] $end
-$var wire 1 "# c [8] $end
-$var wire 1 ## c [7] $end
-$var wire 1 $# c [6] $end
-$var wire 1 %# c [5] $end
-$var wire 1 &# c [4] $end
-$var wire 1 '# c [3] $end
-$var wire 1 (# c [2] $end
-$var wire 1 )# c [1] $end
-$var wire 1 *# c [0] $end
-$upscope $end
-
+$var wire 1 ! clk $end
+$var wire 1 " rst $end
+$var wire 1 # Zero $end
+$var wire 32 $ SrcB [31:0] $end
+$var wire 1 % ResultSrc $end
+$var wire 32 & Result [31:0] $end
+$var wire 1 ' RegWrite $end
+$var wire 32 ( ReadData [31:0] $end
+$var wire 32 ) RD_Instr [31:0] $end
+$var wire 32 * RD2_Top [31:0] $end
+$var wire 32 + RD1_Top [31:0] $end
+$var wire 32 , PC_target_top [31:0] $end
+$var wire 32 - PC_mux_out [31:0] $end
+$var wire 32 . PC_Top [31:0] $end
+$var wire 1 / PCSrc $end
+$var wire 32 0 PCPlus4 [31:0] $end
+$var wire 1 1 OverFlow $end
+$var wire 1 2 Negative $end
+$var wire 1 3 MemWrite $end
+$var wire 32 4 Imm_Ext_Top [31:0] $end
+$var wire 2 5 ImmSrc [1:0] $end
+$var wire 1 6 Carry $end
+$var wire 1 7 ALUSrc $end
+$var wire 32 8 ALUResult [31:0] $end
+$var wire 3 9 ALUControl_Top [2:0] $end
 $scope module ALU $end
-$var wire 1 e A [31] $end
-$var wire 1 f A [30] $end
-$var wire 1 g A [29] $end
-$var wire 1 h A [28] $end
-$var wire 1 i A [27] $end
-$var wire 1 j A [26] $end
-$var wire 1 k A [25] $end
-$var wire 1 l A [24] $end
-$var wire 1 m A [23] $end
-$var wire 1 n A [22] $end
-$var wire 1 o A [21] $end
-$var wire 1 p A [20] $end
-$var wire 1 q A [19] $end
-$var wire 1 r A [18] $end
-$var wire 1 s A [17] $end
-$var wire 1 t A [16] $end
-$var wire 1 u A [15] $end
-$var wire 1 v A [14] $end
-$var wire 1 w A [13] $end
-$var wire 1 x A [12] $end
-$var wire 1 y A [11] $end
-$var wire 1 z A [10] $end
-$var wire 1 { A [9] $end
-$var wire 1 | A [8] $end
-$var wire 1 } A [7] $end
-$var wire 1 ~ A [6] $end
-$var wire 1 !! A [5] $end
-$var wire 1 "! A [4] $end
-$var wire 1 #! A [3] $end
-$var wire 1 $! A [2] $end
-$var wire 1 %! A [1] $end
-$var wire 1 &! A [0] $end
-$var wire 1 i" B [31] $end
-$var wire 1 j" B [30] $end
-$var wire 1 k" B [29] $end
-$var wire 1 l" B [28] $end
-$var wire 1 m" B [27] $end
-$var wire 1 n" B [26] $end
-$var wire 1 o" B [25] $end
-$var wire 1 p" B [24] $end
-$var wire 1 q" B [23] $end
-$var wire 1 r" B [22] $end
-$var wire 1 s" B [21] $end
-$var wire 1 t" B [20] $end
-$var wire 1 u" B [19] $end
-$var wire 1 v" B [18] $end
-$var wire 1 w" B [17] $end
-$var wire 1 x" B [16] $end
-$var wire 1 y" B [15] $end
-$var wire 1 z" B [14] $end
-$var wire 1 {" B [13] $end
-$var wire 1 |" B [12] $end
-$var wire 1 }" B [11] $end
-$var wire 1 ~" B [10] $end
-$var wire 1 !# B [9] $end
-$var wire 1 "# B [8] $end
-$var wire 1 ## B [7] $end
-$var wire 1 $# B [6] $end
-$var wire 1 %# B [5] $end
-$var wire 1 &# B [4] $end
-$var wire 1 '# B [3] $end
-$var wire 1 (# B [2] $end
-$var wire 1 )# B [1] $end
-$var wire 1 *# B [0] $end
-$var wire 1 Q# ALUControl [2] $end
-$var wire 1 R# ALUControl [1] $end
-$var wire 1 S# ALUControl [0] $end
-$var wire 1 u# Carry $end
-$var wire 1 v# OverFlow $end
-$var wire 1 w# Zero $end
-$var wire 1 x# Negative $end
-$var wire 1 G! Result [31] $end
-$var wire 1 H! Result [30] $end
-$var wire 1 I! Result [29] $end
-$var wire 1 J! Result [28] $end
-$var wire 1 K! Result [27] $end
-$var wire 1 L! Result [26] $end
-$var wire 1 M! Result [25] $end
-$var wire 1 N! Result [24] $end
-$var wire 1 O! Result [23] $end
-$var wire 1 P! Result [22] $end
-$var wire 1 Q! Result [21] $end
-$var wire 1 R! Result [20] $end
-$var wire 1 S! Result [19] $end
-$var wire 1 T! Result [18] $end
-$var wire 1 U! Result [17] $end
-$var wire 1 V! Result [16] $end
-$var wire 1 W! Result [15] $end
-$var wire 1 X! Result [14] $end
-$var wire 1 Y! Result [13] $end
-$var wire 1 Z! Result [12] $end
-$var wire 1 [! Result [11] $end
-$var wire 1 \! Result [10] $end
-$var wire 1 ]! Result [9] $end
-$var wire 1 ^! Result [8] $end
-$var wire 1 _! Result [7] $end
-$var wire 1 `! Result [6] $end
-$var wire 1 a! Result [5] $end
-$var wire 1 b! Result [4] $end
-$var wire 1 c! Result [3] $end
-$var wire 1 d! Result [2] $end
-$var wire 1 e! Result [1] $end
-$var wire 1 f! Result [0] $end
-$var wire 1 y# Cout $end
-$var wire 1 z# Sum [31] $end
-$var wire 1 {# Sum [30] $end
-$var wire 1 |# Sum [29] $end
-$var wire 1 }# Sum [28] $end
-$var wire 1 ~# Sum [27] $end
-$var wire 1 !$ Sum [26] $end
-$var wire 1 "$ Sum [25] $end
-$var wire 1 #$ Sum [24] $end
-$var wire 1 $$ Sum [23] $end
-$var wire 1 %$ Sum [22] $end
-$var wire 1 &$ Sum [21] $end
-$var wire 1 '$ Sum [20] $end
-$var wire 1 ($ Sum [19] $end
-$var wire 1 )$ Sum [18] $end
-$var wire 1 *$ Sum [17] $end
-$var wire 1 +$ Sum [16] $end
-$var wire 1 ,$ Sum [15] $end
-$var wire 1 -$ Sum [14] $end
-$var wire 1 .$ Sum [13] $end
-$var wire 1 /$ Sum [12] $end
-$var wire 1 0$ Sum [11] $end
-$var wire 1 1$ Sum [10] $end
-$var wire 1 2$ Sum [9] $end
-$var wire 1 3$ Sum [8] $end
-$var wire 1 4$ Sum [7] $end
-$var wire 1 5$ Sum [6] $end
-$var wire 1 6$ Sum [5] $end
-$var wire 1 7$ Sum [4] $end
-$var wire 1 8$ Sum [3] $end
-$var wire 1 9$ Sum [2] $end
-$var wire 1 :$ Sum [1] $end
-$var wire 1 ;$ Sum [0] $end
+$var wire 1 6 Carry $end
+$var wire 1 1 OverFlow $end
+$var wire 1 # Zero $end
+$var wire 32 : Sum [31:0] $end
+$var wire 32 ; Result [31:0] $end
+$var wire 1 2 Negative $end
+$var wire 1 < Cout $end
+$var wire 32 = B [31:0] $end
+$var wire 3 > ALUControl [2:0] $end
+$var wire 32 ? A [31:0] $end
 $upscope $end
-
 $scope module Control_Unit_Top $end
-$var wire 1 ^ Op [6] $end
-$var wire 1 _ Op [5] $end
-$var wire 1 ` Op [4] $end
-$var wire 1 a Op [3] $end
-$var wire 1 b Op [2] $end
-$var wire 1 c Op [1] $end
-$var wire 1 d Op [0] $end
-$var wire 1 ^ funct7 [6] $end
-$var wire 1 _ funct7 [5] $end
-$var wire 1 ` funct7 [4] $end
-$var wire 1 a funct7 [3] $end
-$var wire 1 b funct7 [2] $end
-$var wire 1 c funct7 [1] $end
-$var wire 1 d funct7 [0] $end
-$var wire 1 V funct3 [2] $end
-$var wire 1 W funct3 [1] $end
-$var wire 1 X funct3 [0] $end
-$var wire 1 K# RegWrite $end
-$var wire 1 M# ALUSrc $end
-$var wire 1 L# MemWrite $end
-$var wire 1 N# ResultSrc $end
-$var wire 1 <$ Branch $end
-$var wire 1 O# ImmSrc [1] $end
-$var wire 1 P# ImmSrc [0] $end
-$var wire 1 Q# ALUControl [2] $end
-$var wire 1 R# ALUControl [1] $end
-$var wire 1 S# ALUControl [0] $end
-$var wire 1 =$ ALUOp [1] $end
-$var wire 1 >$ ALUOp [0] $end
-
-$scope module Main_Decoder $end
-$var wire 1 ^ Op [6] $end
-$var wire 1 _ Op [5] $end
-$var wire 1 ` Op [4] $end
-$var wire 1 a Op [3] $end
-$var wire 1 b Op [2] $end
-$var wire 1 c Op [1] $end
-$var wire 1 d Op [0] $end
-$var wire 1 K# RegWrite $end
-$var wire 1 M# ALUSrc $end
-$var wire 1 L# MemWrite $end
-$var wire 1 N# ResultSrc $end
-$var wire 1 <$ Branch $end
-$var wire 1 O# ImmSrc [1] $end
-$var wire 1 P# ImmSrc [0] $end
-$var wire 1 =$ ALUOp [1] $end
-$var wire 1 >$ ALUOp [0] $end
-$upscope $end
-
+$var wire 7 @ Op [6:0] $end
+$var wire 3 A funct3 [2:0] $end
+$var wire 7 B funct7 [6:0] $end
+$var wire 1 % ResultSrc $end
+$var wire 1 ' RegWrite $end
+$var wire 1 3 MemWrite $end
+$var wire 2 C ImmSrc [1:0] $end
+$var wire 1 / Branch $end
+$var wire 1 7 ALUSrc $end
+$var wire 2 D ALUOp [1:0] $end
+$var wire 3 E ALUControl [2:0] $end
 $scope module ALU_Decoder $end
-$var wire 1 =$ ALUOp [1] $end
-$var wire 1 >$ ALUOp [0] $end
-$var wire 1 V funct3 [2] $end
-$var wire 1 W funct3 [1] $end
-$var wire 1 X funct3 [0] $end
-$var wire 1 ^ funct7 [6] $end
-$var wire 1 _ funct7 [5] $end
-$var wire 1 ` funct7 [4] $end
-$var wire 1 a funct7 [3] $end
-$var wire 1 b funct7 [2] $end
-$var wire 1 c funct7 [1] $end
-$var wire 1 d funct7 [0] $end
-$var wire 1 ^ op [6] $end
-$var wire 1 _ op [5] $end
-$var wire 1 ` op [4] $end
-$var wire 1 a op [3] $end
-$var wire 1 b op [2] $end
-$var wire 1 c op [1] $end
-$var wire 1 d op [0] $end
-$var wire 1 Q# ALUControl [2] $end
-$var wire 1 R# ALUControl [1] $end
-$var wire 1 S# ALUControl [0] $end
+$var wire 3 F funct3 [2:0] $end
+$var wire 7 G funct7 [6:0] $end
+$var wire 7 H op [6:0] $end
+$var wire 2 I ALUOp [1:0] $end
+$var wire 3 J ALUControl [2:0] $end
+$upscope $end
+$scope module Main_Decoder $end
+$var wire 7 K Op [6:0] $end
+$var wire 1 % ResultSrc $end
+$var wire 1 ' RegWrite $end
+$var wire 1 3 MemWrite $end
+$var wire 2 L ImmSrc [1:0] $end
+$var wire 1 / Branch $end
+$var wire 1 7 ALUSrc $end
+$var wire 2 M ALUOp [1:0] $end
 $upscope $end
 $upscope $end
-
 $scope module Data_Memory $end
-$var wire 1 # clk $end
-$var wire 1 $ rst $end
-$var wire 1 L# WE $end
-$var wire 1 G! A [31] $end
-$var wire 1 H! A [30] $end
-$var wire 1 I! A [29] $end
-$var wire 1 J! A [28] $end
-$var wire 1 K! A [27] $end
-$var wire 1 L! A [26] $end
-$var wire 1 M! A [25] $end
-$var wire 1 N! A [24] $end
-$var wire 1 O! A [23] $end
-$var wire 1 P! A [22] $end
-$var wire 1 Q! A [21] $end
-$var wire 1 R! A [20] $end
-$var wire 1 S! A [19] $end
-$var wire 1 T! A [18] $end
-$var wire 1 U! A [17] $end
-$var wire 1 V! A [16] $end
-$var wire 1 W! A [15] $end
-$var wire 1 X! A [14] $end
-$var wire 1 Y! A [13] $end
-$var wire 1 Z! A [12] $end
-$var wire 1 [! A [11] $end
-$var wire 1 \! A [10] $end
-$var wire 1 ]! A [9] $end
-$var wire 1 ^! A [8] $end
-$var wire 1 _! A [7] $end
-$var wire 1 `! A [6] $end
-$var wire 1 a! A [5] $end
-$var wire 1 b! A [4] $end
-$var wire 1 c! A [3] $end
-$var wire 1 d! A [2] $end
-$var wire 1 e! A [1] $end
-$var wire 1 f! A [0] $end
-$var wire 1 I" WD [31] $end
-$var wire 1 J" WD [30] $end
-$var wire 1 K" WD [29] $end
-$var wire 1 L" WD [28] $end
-$var wire 1 M" WD [27] $end
-$var wire 1 N" WD [26] $end
-$var wire 1 O" WD [25] $end
-$var wire 1 P" WD [24] $end
-$var wire 1 Q" WD [23] $end
-$var wire 1 R" WD [22] $end
-$var wire 1 S" WD [21] $end
-$var wire 1 T" WD [20] $end
-$var wire 1 U" WD [19] $end
-$var wire 1 V" WD [18] $end
-$var wire 1 W" WD [17] $end
-$var wire 1 X" WD [16] $end
-$var wire 1 Y" WD [15] $end
-$var wire 1 Z" WD [14] $end
-$var wire 1 [" WD [13] $end
-$var wire 1 \" WD [12] $end
-$var wire 1 ]" WD [11] $end
-$var wire 1 ^" WD [10] $end
-$var wire 1 _" WD [9] $end
-$var wire 1 `" WD [8] $end
-$var wire 1 a" WD [7] $end
-$var wire 1 b" WD [6] $end
-$var wire 1 c" WD [5] $end
-$var wire 1 d" WD [4] $end
-$var wire 1 e" WD [3] $end
-$var wire 1 f" WD [2] $end
-$var wire 1 g" WD [1] $end
-$var wire 1 h" WD [0] $end
-$var wire 1 g! RD [31] $end
-$var wire 1 h! RD [30] $end
-$var wire 1 i! RD [29] $end
-$var wire 1 j! RD [28] $end
-$var wire 1 k! RD [27] $end
-$var wire 1 l! RD [26] $end
-$var wire 1 m! RD [25] $end
-$var wire 1 n! RD [24] $end
-$var wire 1 o! RD [23] $end
-$var wire 1 p! RD [22] $end
-$var wire 1 q! RD [21] $end
-$var wire 1 r! RD [20] $end
-$var wire 1 s! RD [19] $end
-$var wire 1 t! RD [18] $end
-$var wire 1 u! RD [17] $end
-$var wire 1 v! RD [16] $end
-$var wire 1 w! RD [15] $end
-$var wire 1 x! RD [14] $end
-$var wire 1 y! RD [13] $end
-$var wire 1 z! RD [12] $end
-$var wire 1 {! RD [11] $end
-$var wire 1 |! RD [10] $end
-$var wire 1 }! RD [9] $end
-$var wire 1 ~! RD [8] $end
-$var wire 1 !" RD [7] $end
-$var wire 1 "" RD [6] $end
-$var wire 1 #" RD [5] $end
-$var wire 1 $" RD [4] $end
-$var wire 1 %" RD [3] $end
-$var wire 1 &" RD [2] $end
-$var wire 1 '" RD [1] $end
-$var wire 1 (" RD [0] $end
+$var wire 32 N A [31:0] $end
+$var wire 1 3 WE $end
+$var wire 1 ! clk $end
+$var wire 1 " rst $end
+$var wire 32 O WD [31:0] $end
+$var wire 32 P RD [31:0] $end
 $upscope $end
-
+$scope module Instruction_Memory $end
+$var wire 1 " rst $end
+$var wire 32 Q RD [31:0] $end
+$var wire 32 R A [31:0] $end
+$upscope $end
 $scope module Mux_DataMemory_to_Register $end
-$var wire 1 G! a [31] $end
-$var wire 1 H! a [30] $end
-$var wire 1 I! a [29] $end
-$var wire 1 J! a [28] $end
-$var wire 1 K! a [27] $end
-$var wire 1 L! a [26] $end
-$var wire 1 M! a [25] $end
-$var wire 1 N! a [24] $end
-$var wire 1 O! a [23] $end
-$var wire 1 P! a [22] $end
-$var wire 1 Q! a [21] $end
-$var wire 1 R! a [20] $end
-$var wire 1 S! a [19] $end
-$var wire 1 T! a [18] $end
-$var wire 1 U! a [17] $end
-$var wire 1 V! a [16] $end
-$var wire 1 W! a [15] $end
-$var wire 1 X! a [14] $end
-$var wire 1 Y! a [13] $end
-$var wire 1 Z! a [12] $end
-$var wire 1 [! a [11] $end
-$var wire 1 \! a [10] $end
-$var wire 1 ]! a [9] $end
-$var wire 1 ^! a [8] $end
-$var wire 1 _! a [7] $end
-$var wire 1 `! a [6] $end
-$var wire 1 a! a [5] $end
-$var wire 1 b! a [4] $end
-$var wire 1 c! a [3] $end
-$var wire 1 d! a [2] $end
-$var wire 1 e! a [1] $end
-$var wire 1 f! a [0] $end
-$var wire 1 g! b [31] $end
-$var wire 1 h! b [30] $end
-$var wire 1 i! b [29] $end
-$var wire 1 j! b [28] $end
-$var wire 1 k! b [27] $end
-$var wire 1 l! b [26] $end
-$var wire 1 m! b [25] $end
-$var wire 1 n! b [24] $end
-$var wire 1 o! b [23] $end
-$var wire 1 p! b [22] $end
-$var wire 1 q! b [21] $end
-$var wire 1 r! b [20] $end
-$var wire 1 s! b [19] $end
-$var wire 1 t! b [18] $end
-$var wire 1 u! b [17] $end
-$var wire 1 v! b [16] $end
-$var wire 1 w! b [15] $end
-$var wire 1 x! b [14] $end
-$var wire 1 y! b [13] $end
-$var wire 1 z! b [12] $end
-$var wire 1 {! b [11] $end
-$var wire 1 |! b [10] $end
-$var wire 1 }! b [9] $end
-$var wire 1 ~! b [8] $end
-$var wire 1 !" b [7] $end
-$var wire 1 "" b [6] $end
-$var wire 1 #" b [5] $end
-$var wire 1 $" b [4] $end
-$var wire 1 %" b [3] $end
-$var wire 1 &" b [2] $end
-$var wire 1 '" b [1] $end
-$var wire 1 (" b [0] $end
-$var wire 1 N# s $end
-$var wire 1 +# c [31] $end
-$var wire 1 ,# c [30] $end
-$var wire 1 -# c [29] $end
-$var wire 1 .# c [28] $end
-$var wire 1 /# c [27] $end
-$var wire 1 0# c [26] $end
-$var wire 1 1# c [25] $end
-$var wire 1 2# c [24] $end
-$var wire 1 3# c [23] $end
-$var wire 1 4# c [22] $end
-$var wire 1 5# c [21] $end
-$var wire 1 6# c [20] $end
-$var wire 1 7# c [19] $end
-$var wire 1 8# c [18] $end
-$var wire 1 9# c [17] $end
-$var wire 1 :# c [16] $end
-$var wire 1 ;# c [15] $end
-$var wire 1 <# c [14] $end
-$var wire 1 =# c [13] $end
-$var wire 1 ># c [12] $end
-$var wire 1 ?# c [11] $end
-$var wire 1 @# c [10] $end
-$var wire 1 A# c [9] $end
-$var wire 1 B# c [8] $end
-$var wire 1 C# c [7] $end
-$var wire 1 D# c [6] $end
-$var wire 1 E# c [5] $end
-$var wire 1 F# c [4] $end
-$var wire 1 G# c [3] $end
-$var wire 1 H# c [2] $end
-$var wire 1 I# c [1] $end
-$var wire 1 J# c [0] $end
+$var wire 32 S a [31:0] $end
+$var wire 32 T b [31:0] $end
+$var wire 1 % s $end
+$var wire 32 U c [31:0] $end
+$upscope $end
+$scope module Mux_Register_to_ALU $end
+$var wire 1 7 s $end
+$var wire 32 V c [31:0] $end
+$var wire 32 W b [31:0] $end
+$var wire 32 X a [31:0] $end
+$upscope $end
+$scope module PC $end
+$var wire 1 ! clk $end
+$var wire 1 " rst $end
+$var wire 32 Y PC_Next [31:0] $end
+$var reg 32 Z PC [31:0] $end
+$upscope $end
+$scope module PC_Adder $end
+$var wire 32 [ a [31:0] $end
+$var wire 32 \ b [31:0] $end
+$var wire 32 ] c [31:0] $end
+$upscope $end
+$scope module PC_target $end
+$var wire 32 ^ a [31:0] $end
+$var wire 32 _ c [31:0] $end
+$var wire 32 ` b [31:0] $end
+$upscope $end
+$scope module PC_target_TO_PC_Next $end
+$var wire 32 a a [31:0] $end
+$var wire 32 b b [31:0] $end
+$var wire 1 / s $end
+$var wire 32 c c [31:0] $end
+$upscope $end
+$scope module Register_File $end
+$var wire 5 d A1 [4:0] $end
+$var wire 5 e A2 [4:0] $end
+$var wire 5 f A3 [4:0] $end
+$var wire 32 g WD3 [31:0] $end
+$var wire 1 ' WE3 $end
+$var wire 1 ! clk $end
+$var wire 1 " rst $end
+$var wire 32 h RD2 [31:0] $end
+$var wire 32 i RD1 [31:0] $end
+$upscope $end
+$scope module Sign_Extend $end
+$var wire 2 j ImmSrc [1:0] $end
+$var wire 32 k In [31:0] $end
+$var reg 32 l Imm_Ext [31:0] $end
 $upscope $end
 $upscope $end
 $upscope $end
 $enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
 #0
 $dumpvars
-0!
-0"
-bx T#
-xD
-xC
-xB
-xA
-x@
-x?
-x>
-x=
-x<
-x;
-x:
-x9
-x8
-x7
-x6
-x5
-x4
-x3
-x2
-x1
-x0
-x/
-x.
-x-
-x,
-x+
-x*
-x)
-x(
-x'
-x&
-x%
-0d
-0c
-0b
-0a
-0`
-0_
-0^
-0]
-0\
-0[
-0Z
-0Y
-0X
-0W
-0V
-0U
-0T
-0S
-0R
-0Q
-0P
-0O
-0N
-0M
-0L
-0K
-0J
-0I
-0H
-0G
-0F
-0E
-0&!
-0%!
-0$!
-0#!
-0"!
-0!!
-0~
-0}
-0|
-0{
-0z
-0y
-0x
-0w
-0v
-0u
-0t
-0s
-0r
-0q
-0p
-0o
-0n
-0m
-0l
-0k
-0j
-0i
-0h
-0g
-0f
-0e
-0F!
-0E!
-0D!
-0C!
-0B!
-0A!
-0@!
-0?!
-0>!
-0=!
-0<!
-0;!
-0:!
-09!
-08!
-07!
-06!
-05!
-04!
-03!
-02!
-01!
-00!
-0/!
-0.!
-0-!
-0,!
-0+!
-0*!
-0)!
-0(!
-0'!
-0f!
-0e!
-0d!
-0c!
-0b!
-0a!
-0`!
-0_!
-0^!
-0]!
-0\!
-0[!
-0Z!
-0Y!
-0X!
-0W!
-0V!
-0U!
-0T!
-0S!
-0R!
-0Q!
-0P!
-0O!
-0N!
-0M!
-0L!
-0K!
-0J!
-0I!
-0H!
-0G!
-0("
-0'"
-0&"
-0%"
-0$"
-0#"
-0""
-0!"
-0~!
-0}!
-0|!
-0{!
-0z!
-0y!
-0x!
-0w!
-0v!
-0u!
-0t!
-0s!
-0r!
-0q!
-0p!
-0o!
-0n!
-0m!
-0l!
-0k!
-0j!
-0i!
-0h!
-0g!
-xH"
-xG"
-xF"
-xE"
-xD"
-xC"
-xB"
-xA"
-x@"
-x?"
-x>"
-x="
-x<"
-x;"
-x:"
-x9"
-x8"
-x7"
-x6"
-x5"
-x4"
-x3"
-x2"
-x1"
-x0"
-x/"
-x."
-x-"
-x,"
-x+"
-x*"
-x)"
-0h"
-0g"
-0f"
-0e"
-0d"
-0c"
-0b"
-0a"
-0`"
-0_"
-0^"
-0]"
-0\"
-0["
-0Z"
-0Y"
-0X"
-0W"
-0V"
-0U"
-0T"
-0S"
-0R"
-0Q"
-0P"
-0O"
-0N"
-0M"
-0L"
-0K"
-0J"
-0I"
-0*#
-0)#
-0(#
-0'#
-0&#
-0%#
-0$#
-0##
-0"#
-0!#
-0~"
-0}"
-0|"
-0{"
-0z"
-0y"
-0x"
-0w"
-0v"
-0u"
-0t"
-0s"
-0r"
-0q"
-0p"
-0o"
-0n"
-0m"
-0l"
-0k"
-0j"
-0i"
-0J#
-0I#
-0H#
-0G#
-0F#
-0E#
-0D#
-0C#
-0B#
-0A#
-0@#
-0?#
-0>#
-0=#
-0<#
-0;#
-0:#
-09#
-08#
-07#
-06#
-05#
-04#
-03#
-02#
-01#
-00#
-0/#
-0.#
-0-#
-0,#
-0+#
-0K#
-0L#
-0M#
-0N#
-0P#
-0O#
-0S#
-0R#
-0Q#
-0y#
-0;$
-0:$
-09$
-08$
-07$
-06$
-05$
-04$
-03$
-02$
-01$
-00$
-0/$
-0.$
-0-$
-0,$
-0+$
-0*$
-0)$
-0($
-0'$
-0&$
-0%$
-0$$
-0#$
-0"$
-0!$
-0~#
-0}#
-0|#
-0{#
-0z#
-0>$
-0=$
-0$
-0#
-0t#
-0s#
-1r#
-0q#
-0p#
-0o#
-0n#
-0m#
-0l#
-0k#
-0j#
-0i#
-0h#
-0g#
-0f#
-0e#
-0d#
-0c#
-0b#
-0a#
-0`#
-0_#
-0^#
-0]#
-0\#
-0[#
-0Z#
-0Y#
-0X#
-0W#
-0V#
-0U#
-0v#
-0u#
-1w#
-0x#
-0<$
-$end
-#50
-1!
-1#
-b0 T#
-0D
-0C
-0B
-0A
-0@
-0?
-0>
-0=
+b0 l
+b0 k
+b0 j
+b0 i
+b0 h
+b0 g
+b0 f
+b0 e
+b0 d
+bx c
+bx b
+bx a
+b0 `
+bx _
+bx ^
+bx ]
+b100 \
+bx [
+bx Z
+bx Y
+b0 X
+b0 W
+b0 V
+b0 U
+b0 T
+b0 S
+bx R
+b0 Q
+b0 P
+b0 O
+b0 N
+b0 M
+b0 L
+b0 K
+b0 J
+b0 I
+b0 H
+b0 G
+b0 F
+b0 E
+b0 D
+b0 C
+b0 B
+b0 A
+b0 @
+b0 ?
+b0 >
+b0 =
 0<
-0;
-0:
-09
-08
+b0 ;
+b0 :
+b0 9
+b0 8
 07
 06
-05
-04
+b0 5
+b0 4
 03
 02
 01
-00
+bx 0
 0/
-0.
-0-
-0,
-0+
-0*
-0)
-0(
+bx .
+bx -
+bx ,
+b0 +
+b0 *
+b0 )
+b0 (
 0'
-0&
+b0 &
 0%
-0H"
-0G"
-1F"
-0E"
-0D"
-0C"
-0B"
-0A"
-0@"
-0?"
-0>"
-0="
-0<"
-0;"
-0:"
-09"
-08"
-07"
-06"
-05"
-04"
-03"
-02"
-01"
-00"
-0/"
-0."
-0-"
-0,"
-0+"
-0*"
-0)"
-#100
-0!
-0#
-1"
-1$
-1d
-1c
-1`
-1_
-1]
-1\
-1[
-1W
-1V
-1U
-1S
-1O
-1N
-x&!
-x%!
-x$!
-x#!
-x"!
-x!!
-x~
-x}
-x|
-x{
-xz
-xy
-xx
-xw
-xv
-xu
-xt
-xs
-xr
-xq
-xp
-xo
-xn
-xm
-xl
-xk
-xj
-xi
-xh
-xg
-xf
-xe
-xh"
-xg"
-xf"
-xe"
-xd"
-xc"
-xb"
-xa"
-x`"
-x_"
-x^"
-x]"
-x\"
-x["
-xZ"
-xY"
-xX"
-xW"
-xV"
-xU"
-xT"
-xS"
-xR"
-xQ"
-xP"
-xO"
-xN"
-xM"
-xL"
-xK"
-xJ"
-xI"
-x("
-x'"
-x&"
-x%"
-x$"
-x#"
-x""
-x!"
-x~!
-x}!
-x|!
-x{!
-xz!
-xy!
-xx!
-xw!
-xv!
-xu!
-xt!
-xs!
-xr!
-xq!
-xp!
-xo!
-xn!
-xm!
-xl!
-xk!
-xj!
-xi!
-xh!
-xg!
-xv#
-1K#
-x*#
-x)#
-x(#
-x'#
-x&#
-x%#
-x$#
-x##
-x"#
-x!#
-x~"
-x}"
-x|"
-x{"
-xz"
-xy"
-xx"
-xw"
-xv"
-xu"
-xt"
-xs"
-xr"
-xq"
-xp"
-xo"
-xn"
-xm"
-xl"
-xk"
-xj"
-xi"
-x;$
-x:$
-x9$
-x8$
-x7$
-x6$
-x5$
-x4$
-x3$
-x2$
-x1$
-x0$
-x/$
-x.$
-x-$
-x,$
-x+$
-x*$
-x)$
-x($
-x'$
-x&$
-x%$
-x$$
-x#$
-x"$
-x!$
-x~#
-x}#
-x|#
-x{#
-xz#
-xy#
-0h"
-0g"
-1f"
-0e"
-0d"
-0c"
-0b"
-0a"
-0`"
-0_"
-0^"
-0]"
-0\"
-0["
-0Z"
-0Y"
-0X"
-0W"
-0V"
-0U"
-0T"
-0S"
-0R"
-0Q"
-0P"
-0O"
-0N"
-0M"
-0L"
-0K"
-0J"
-0I"
-1&!
-0%!
-1$!
-0#!
-0"!
-0!!
-0~
-0}
-0|
-0{
-0z
-0y
-0x
-0w
-0v
-0u
-0t
-0s
-0r
-0q
-0p
-0o
-0n
-0m
-0l
-0k
-0j
-0i
-0h
-0g
-0f
-0e
-1E!
-1D!
-1=$
-xu#
-1S#
-1R#
-0*#
-0)#
-1(#
-0'#
-0&#
-0%#
-0$#
-0##
-0"#
-0!#
-0~"
-0}"
-0|"
-0{"
-0z"
-0y"
-0x"
-0w"
-0v"
-0u"
-0t"
-0s"
-0r"
-0q"
-0p"
-0o"
-0n"
-0m"
-0l"
-0k"
-0j"
-0i"
-xf!
-xe!
-xd!
-xc!
-xb!
-xa!
-x`!
-x_!
-x^!
-x]!
-x\!
-x[!
-xZ!
-xY!
-xX!
-xW!
-xV!
-xU!
-xT!
-xS!
-xR!
-xQ!
-xP!
-xO!
-xN!
-xM!
-xL!
-xK!
-xJ!
-xI!
-xH!
-xG!
-xx#
-0v#
-0u#
-xJ#
-xI#
-xH#
-xG#
-xF#
-xE#
-xD#
-xC#
-xB#
-xA#
-x@#
-x?#
-x>#
-x=#
-x<#
-x;#
-x:#
-x9#
-x8#
-x7#
-x6#
-x5#
-x4#
-x3#
-x2#
-x1#
-x0#
-x/#
-x.#
-x-#
-x,#
-x+#
-1;$
-0:$
-09$
-08$
-07$
-06$
-05$
-04$
-03$
-02$
-01$
-00$
-0/$
-0.$
-0-$
-0,$
-0+$
-0*$
-0)$
-0($
-0'$
-0&$
-0%$
-0$$
-0#$
-0"$
-0!$
-0~#
-0}#
-0|#
-0{#
-0z#
-0y#
-1f!
-0e!
-1d!
-0c!
-0b!
-0a!
-0`!
-0_!
-0^!
-0]!
-0\!
-0[!
-0Z!
-0Y!
-0X!
-0W!
-0V!
-0U!
-0T!
-0S!
-0R!
-0Q!
-0P!
-0O!
-0N!
-0M!
-0L!
-0K!
-0J!
-0I!
-0H!
-0G!
-xw#
-0x#
-1J#
-0I#
-1H#
-0G#
-0F#
-0E#
-0D#
-0C#
-0B#
-0A#
-0@#
-0?#
-0>#
-0=#
-0<#
-0;#
-0:#
-09#
-08#
-07#
-06#
-05#
-04#
-03#
-02#
-01#
-00#
-0/#
-0.#
-0-#
-0,#
-0+#
-0w#
-#150
-1!
+b0 $
 1#
-b100 T#
-1B
-0F"
-1E"
-0]
-0\
-0[
-1Z
-1X
-0S#
-18$
-0f!
-0J#
+0"
+0!
+$end
+#50
+b0 -
+b0 Y
+b0 c
+b100 0
+b100 ]
+b100 b
+b0 ,
+b0 _
+b0 a
+b0 .
+b0 R
+b0 Z
+b0 [
+b0 ^
+1!
+#100
+b1 9
+b1 >
+b1 E
+b1 J
+01
+02
+b0 &
+b0 U
+b0 g
+1#
+b10 5
+b10 C
+b10 L
+b10 j
+b1 D
+b1 I
+b1 M
+b0 8
+b0 ;
+b0 N
+b0 S
+06
+1/
+b100 -
+b100 Y
+b100 c
+b0 :
+0<
+b1100011 B
+b1100011 G
+b1100011 @
+b1100011 H
+b1100011 K
+b10101 f
+b100 e
+b100 d
+b11111111111111111111111111110100 ,
+b11111111111111111111111111110100 _
+b11111111111111111111111111110100 a
+b11111111111111111111111111110100 4
+b11111111111111111111111111110100 W
+b11111111111111111111111111110100 `
+b11111111111111111111111111110100 l
+b100 $
+b100 =
+b100 V
+bx (
+bx P
+bx T
+b11111110010000100000101011100011 )
+b11111110010000100000101011100011 Q
+b11111110010000100000101011100011 k
+b100 +
+b100 ?
+b100 i
+b100 *
+b100 O
+b100 X
+b100 h
+1"
+0!
+#150
+x1
+x2
+x#
+x6
+bx &
+bx U
+bx g
+bx 8
+bx ;
+bx N
+bx S
+bx :
+x<
+x'
+x7
+bx 9
+bx >
+bx E
+bx J
+bx $
+bx =
+bx V
+bx 5
+bx C
+bx L
+bx j
+x3
+x%
+x/
+bx D
+bx I
+bx M
+bx *
+bx O
+bx X
+bx h
+bx +
+bx ?
+bx i
+bx B
+bx G
+bx A
+bx F
+bx @
+bx H
+bx K
+bx f
+bx e
+bx d
+bx 4
+bx W
+bx `
+bx l
+bx )
+bx Q
+bx k
+bx -
+bx Y
+bx c
+b1000 0
+b1000 ]
+b1000 b
+bx ,
+bx _
+bx a
+b100 .
+b100 R
+b100 Z
+b100 [
+b100 ^
+1!
 #200
 0!
-0#
 #250
+bx 0
+bx ]
+bx b
+bx .
+bx R
+bx Z
+bx [
+bx ^
 1!
-1#
-b1000 T#
-0B
-1A
-1F"
-xd
-xc
-xb
-xa
-x`
-x_
-x^
-x]
-x\
-x[
-xZ
-xY
-xX
-xW
-xV
-xU
-xT
-xS
-xR
-xQ
-xP
-xO
-xN
-xM
-xL
-xK
-xJ
-xI
-xH
-xG
-xF
-xE
-x<$
-xN#
-xL#
-xM#
-xK#
-xh"
-xg"
-xf"
-xe"
-xd"
-xc"
-xb"
-xa"
-x`"
-x_"
-x^"
-x]"
-x\"
-x["
-xZ"
-xY"
-xX"
-xW"
-xV"
-xU"
-xT"
-xS"
-xR"
-xQ"
-xP"
-xO"
-xN"
-xM"
-xL"
-xK"
-xJ"
-xI"
-x&!
-x%!
-x$!
-x#!
-x"!
-x!!
-x~
-x}
-x|
-x{
-xz
-xy
-xx
-xw
-xv
-xu
-xt
-xs
-xr
-xq
-xp
-xo
-xn
-xm
-xl
-xk
-xj
-xi
-xh
-xg
-xf
-xe
-xF!
-xE!
-xD!
-xC!
-xB!
-xA!
-x@!
-x?!
-x>!
-x=!
-x<!
-x;!
-x:!
-x9!
-x8!
-x7!
-x6!
-x5!
-x4!
-x3!
-x2!
-x1!
-x0!
-x/!
-x.!
-x-!
-x,!
-x+!
-x*!
-x)!
-x(!
-x'!
-xS#
-xR#
-xQ#
-xP#
-xO#
-x>$
-x=$
-xv#
-x;$
-x:$
-x9$
-x8$
-x7$
-x6$
-x5$
-x4$
-x3$
-x2$
-x1$
-x0$
-x/$
-x.$
-x-$
-x,$
-x+$
-x*$
-x)$
-x($
-x'$
-x&$
-x%$
-x$$
-x#$
-x"$
-x!$
-x~#
-x}#
-x|#
-x{#
-xz#
-xy#
-xf!
-xe!
-xd!
-xc!
-xb!
-xa!
-x`!
-x_!
-x^!
-x]!
-x\!
-x[!
-xZ!
-xY!
-xX!
-xW!
-xV!
-xU!
-xT!
-xS!
-xR!
-xQ!
-xP!
-xO!
-xN!
-xM!
-xL!
-xK!
-xJ!
-xI!
-xH!
-xG!
-x*#
-x)#
-x(#
-x'#
-x&#
-x%#
-x$#
-x##
-x"#
-x!#
-x~"
-x}"
-x|"
-x{"
-xz"
-xy"
-xx"
-xw"
-xv"
-xu"
-xt"
-xs"
-xr"
-xq"
-xp"
-xo"
-xn"
-xm"
-xl"
-xk"
-xj"
-xi"
-xJ#
-xI#
-xH#
-xG#
-xF#
-xE#
-xD#
-xC#
-xB#
-xA#
-x@#
-x?#
-x>#
-x=#
-x<#
-x;#
-x:#
-x9#
-x8#
-x7#
-x6#
-x5#
-x4#
-x3#
-x2#
-x1#
-x0#
-x/#
-x.#
-x-#
-x,#
-x+#
-xx#
-xu#
-xw#
 #300
 0!
-0#
 #350
 1!
-1#
-b1100 T#
-1B
-0F"
-0E"
-1D"
+#400
+0!
+#450
+1!

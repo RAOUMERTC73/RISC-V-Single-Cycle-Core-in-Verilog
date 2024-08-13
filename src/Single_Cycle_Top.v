@@ -13,17 +13,25 @@ module Single_Cycle_Top(clk,rst);
 
     input clk,rst;
 
-    wire [31:0] PC_Top,RD_Instr,RD1_Top,Imm_Ext_Top,ALUResult,ReadData,PCPlus4,RD2_Top,SrcB,Result;
-    wire RegWrite,MemWrite,ALUSrc,ResultSrc;
+    wire [31:0] PC_Top,RD_Instr,RD1_Top,Imm_Ext_Top,ALUResult,ReadData,PCPlus4,RD2_Top,SrcB,Result,PC_target_top,PC_mux_out;
+    wire RegWrite,MemWrite,ALUSrc,ResultSrc,PCSrc;
     wire [1:0]ImmSrc;
     wire [2:0]ALUControl_Top;
+    // adding over flow flag   
+    wire  OverFlow,Negative,Carry,Zero;
 
     PC_Module PC(
         .clk(clk),
         .rst(rst),
         .PC(PC_Top),
-        .PC_Next(PCPlus4)
+        .PC_Next(PC_mux_out)
     );
+
+    Mux PC_target_TO_PC_Next( .a(PC_target_top),
+          .b(PCPlus4),
+          .s(PCSrc),
+          .c(PC_mux_out) ); 
+    
 
     PC_Adder PC_Adder(  
                     .a(PC_Top),
@@ -51,7 +59,7 @@ module Single_Cycle_Top(clk,rst);
 
     Sign_Extend Sign_Extend(
                         .In(RD_Instr),
-                        .ImmSrc(ImmSrc[0]),
+                        .ImmSrc(ImmSrc),
                         .Imm_Ext(Imm_Ext_Top)
     );
 
@@ -67,10 +75,10 @@ module Single_Cycle_Top(clk,rst);
             .B(SrcB),//SrcB
             .Result(ALUResult),
             .ALUControl(ALUControl_Top),
-            .OverFlow(),
-            .Carry(),
-            .Zero(),
-            .Negative()
+            .OverFlow(OverFlow),
+            .Carry(Carry),
+            .Zero(Zero),
+            .Negative(Negative)
     );
 
     Control_Unit_Top Control_Unit_Top(
@@ -80,7 +88,7 @@ module Single_Cycle_Top(clk,rst);
                             .ALUSrc(ALUSrc),
                             .MemWrite(MemWrite),
                             .ResultSrc(ResultSrc),
-                            .Branch(),
+                            .Branch(PCSrc),
                             .funct3(RD_Instr[14:12]),
                             .funct7(RD_Instr[6:0]),
                             .ALUControl(ALUControl_Top)
@@ -101,5 +109,17 @@ module Single_Cycle_Top(clk,rst);
                             .s(ResultSrc),
                             .c(Result)
     ); 
+
+   PC_Adder PC_target(.a(PC_Top),.b(Imm_Ext_Top),.c(PC_target_top));
+
+  
+
+
+
+
+
+
+
+
 
 endmodule

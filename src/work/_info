@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/src
 vALU
-Z1 !s110 1723419313
+Z1 !s110 1723424040
 !i10b 1
 !s100 ?0iK0zzDz_11Q;OHbfe@`1
 IHC2C9oJ`1BA7hFg`?@;FA0
@@ -23,7 +23,7 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1723419313.000000
+Z4 !s108 1723424039.000000
 Z5 !s107 Mux.v|PC_Adder.v|Data_Memory.v|Main_Decoder.v|ALU_Decoder.v|Control_Unit_Top.v|ALU.v|Sign_Extend.v|Register_File.v|Instruction_Memory.v|PC.v|Single_Cycle_Top_Tb.v|Single_Cycle_Top.v|
 Z6 !s90 Single_Cycle_Top.v|Single_Cycle_Top_Tb.v|
 !i113 1

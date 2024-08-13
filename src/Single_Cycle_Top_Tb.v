@@ -25,7 +25,7 @@ module Single_Cycle_Top_Tb ();
         #100;
 
         rst <=1'b1;
-        #300;
+        #350;
         $finish;
     end
 endmodule
