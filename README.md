@@ -36,7 +36,7 @@ In this project, I designed and implemented a single-cycle microarchitecture for
 ## Tools and Technologies Used
 
 - **Hardware Description Language:** Verilog HDL / System Verilog
-- **Simulation Tools:** Icarus Verilog (iverilog) for Verilog file supported only  , GTK Wave, Modelsim /Questasim  for verilog and system Verilog  files
+- **Simulation Tools:** Icarus Verilog (iverilog) for Verilog file supported only  , GTK Wave, Modelsim /Questasim  for verilog and system Verilog  files ...
 - **Development Environment:** VS Code / Sublime
 
 ## Outcome
